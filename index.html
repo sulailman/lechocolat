@@ -15,30 +15,34 @@
 </head>
 
 <body>
+    <!--NAVIGATION-->
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top ">
         <div class="container">
-            <a class="navbar-brand" href="#">Le Chocolat</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="Navbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a>
-                    </li>
-                </ul>
-            </div>
+            <!--a class="navbar-brand" href="#">Le Chocolat</a>-->
+            <a class="navbar-brand" href="./index.html">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a>
+                        </li>
+                    </ul>
+                </div>
         </div>
     </nav>
+
+    <!-- HEADER -->
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
@@ -48,6 +52,9 @@
                         recipes. Our creations will travel you in the chocolate world!</p>
                 </div>
                 <div class="col col-sm">
+                    <div class="col col-sm">
+                        <img src="images/logo.png" class="img-fluid">
+                    </div>
                     <!-- This particular content will occupy whatever is left out, 0 or 4 cols -->
                 </div>
             </div>
@@ -60,9 +67,16 @@
                 <h3>Our famous chocolates</h3>
             </div>
             <div class="col-sm col-md">
-                <h2>85% DARK CHOCOLATE</h2>
-                <p class="d-none d-sm-block">Dark chocolate with no added sugar. Here you can taste the flavor of cocoa
-                    beans.</p>
+                <!--<h2>85% DARK CHOCOLATE</h2>
+                <p class="d-none d-sm-block">Dark chocolate with no added sugar. Here you can taste the flavor of cocoabeans.</p>-->
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="images/dark85.jpg" alt="85% DARK CHOCOLATE">
+                    <div class="media-body">
+                        <h2 class="mt-0">85% DARK CHOCOLATE</h2>
+                        <p class="col d-none d-md-block">Dark chocolate with no added sugar.
+                            Here you can taste the flavor of cocoa beans.</p>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -82,11 +96,14 @@
                 <h3>Meet our Specialists</h3>
             </div>
             <div class="col-sm col-md">
-                <h2>Vasilis Wilson </h2>
-                <h4>Sous-chef</h4>
-                <p class="d-none d-sm-block">Vasilis is well informed of all the current trends in pastry and
-                    contributes his innovative ideas in
-                    our products.</p>
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="images/cartoonVasilis.png" alt="Vasilis Wilson">
+                    <div class="media-body">
+                        <h2 class="mt-0">Vasilis Wilson</h2>
+                        <p class="col d-none d-md-block">Vasilis is well informed of all the current
+                            trends in pastry and contributes his innovative ideas in our products.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
