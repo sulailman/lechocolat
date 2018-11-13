@@ -35,4 +35,11 @@ body{
     color:floralwhite;
     background-color:rgba(110, 63, 25, 0.925)
 }
-tr:hover {background-color:#dbb08db0!important}
+tr:hover {background-color:#dbb08db0!important
+}
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+  }
