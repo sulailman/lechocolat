@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Assignment05</title>
+    </head>
+    <body>
+        <h3> Assignment05</h3>
+        <p>
+            Replace the “placeholder” ### in the script area, with the appropriate code elements. 
+            <br>These elements should be:
+        </p>
+        <ul>
+            <li>Variable names</li>
+            <li>Integers</li>
+            <li>JavaScript methods</li>
+        </ul>
+        <p><b>In your browser, open More tools > Developer tools > Console to check the results!</b></p>
+        <script>
+            var str = "I like this WEB course!";
+            var sln = str.length; /* 23 */
+            var ### = str.indexOf("w"); /* -1 */
+            var ### = str.indexOf("W"); /* 12 */
+            var res = str.slice(###,###); /* WEB */
+            var a = 8.9876;
+            var x = a.toPrecision(###); /* 9.0 */ 
+            var y = Math.###(25);  /* 5 */
+            var remainder = x ### y; /*4 */
+            var quotient = Math.floor( x/y);  /* 1 */
+            var division = ( x/y);  /* 1.8 */
+            
+            console.log("The length of the string is: " + ###);
+            console.log("The position of the first 'W' is:  " + ###);
+            console.log("The position of the first 'W' is:  " + ###);
+            console.log("The part of the string between position ### and position ### is: " + res);
+            console.log("x = " + x);
+            console.log("y = " + y);
+            console.log("remainder = " + remainder);
+            console.log("quotient = " + quotient);
+            console.log("division = " + division);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      div p { background: yellow }
+      p span { color: red }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>Welcome to the <span>web</span>!</p>
+    </div>
+  </body>
+</html>

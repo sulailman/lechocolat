@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <title>String and Number methods</title>
+    </head>
+    <body>
+        <h3> String and Number methods</h3>
+        <p><b>What is the the result of the following code?</b></p>
+        <p>
+            var str = "HTML, CSS, JavaScript"; <br>
+              var sln = str.length; <br>
+              var pos = str.indexOf("C"); <br>
+              var res = str.slice(6, 9); <br>
+            var a = 12.345; <br>
+              var x = a.toPrecision(3); <br>
+            var y = Math.sqrt(16);  <br>
+            var z = Math.random()*10;  <br>
+              var randomInt = parseInt(z)  <br>
+        </p>
+        <p><b>In your browser, open More tools -- Developer tools -- Console to see the results!</b></p>
+        <script>
+            var str = "HTML, CSS, JavaScript";
+              var sln = str.length; /* 21 */
+              var pos = str.indexOf("C"); /* 6 */
+              var res = str.slice(6, 9); /* CSS */
+            var a = 12.345;
+              var x = a.toPrecision(3); /* 12.3 */ 
+            var y = Math.sqrt(16);  /* 4 */
+            var z = Math.random()*10; /* */
+              var randomInt = parseInt(z)  /* an integer between 0 and 9 */
+            
+            console.log("The length of the string is: " + sln);
+            console.log("The position of the first 'C' is:  " + pos);
+            console.log("The part of the string between position 6 and position 9 is: " + res);
+            console.log("x = " + x);
+            console.log("y = " + y);
+            console.log("z = " + z);
+            console.log("randomInt = " + randomInt);
+        </script>
+    </body>
+</html>
